@@ -79,7 +79,7 @@ tags: [tizen, rpi, iot]
 
 ## 파일리스트
   
-#### 에어코드를 이용한 QR체크인 [[github]](https://github.com/pushdown99/aircode/tree/main/data-over-sound)
+#### 에어코드 발신 장치 (타이젠) [[github]](https://github.com/pushdown99/aircode/tree/main/data-over-sound)
 ~~~console
 ├─data-over-sound
 │  ├─inc
@@ -88,7 +88,7 @@ tags: [tizen, rpi, iot]
 │  └─src
 ~~~
 
-- 헤더파일(*.h)
+- 헤더파일(*.h *.hpp)
 
 파일명|내용
 ---|---
@@ -106,7 +106,7 @@ inc/resampler.h|샘플러를 위한 클래스 정의
 inc/rs.hpp|Reed-Solmon Error Correction 전처리 (외부 오픈소스)
 inc/thread.h|쓰레드 처리를 위한 외부참조 변수 및 함수정의
 
-- 소스파일(*.c)
+- 소스파일(*.c *cpp)
 
 파일명|내용
 ---|---
@@ -120,72 +120,64 @@ src/misc.c|기타 Miscellaneous 함수 구현
 src/resampler.cpp|샘플러를 위한 클래스 함수 구현
 src/thread.c|쓰레드 처리를 위한 함수 구현
 
-#### 안드로이드 앱 [[github]](https://github.com/pushdown99/sound-camera/tree/master/dashboard)
+#### 에어코드 수신/QR체크인 (안드로이드) [[github]](https://github.com/pushdown99/aircode/tree/main/android/app)
 
 ~~~console
-├─dashboard
-│  ├─public
-│  │  └─data
-│  └─views
+├─src
+│  ├─main
+│  │  └─cpp
+│  │   |  └─ggwave
+│  │  └─java/com/example/ggwave
+│  │  └─cpp
 ~~~
 
-- 소스파일(*.js)
+- 소스파일(*.java)
 
 파일명|내용
 ---|---
-**app.js**|nodejs기반 웹어플리케이션  
+java/com/example/ggwave/**MainActivity.java**|메인액티비티 함수 구현 (에어태크인지 및 QR 체크인 인덴트호출)  
 
-- 소스파일(*.ejs)
-  
+- 소스파일(*.cpp *.h)
+
 파일명|내용
 ---|---
-views/chart.ejs|google chart 및 카메라 이미지처리 html/javascript 템플릿  
+cpp/test-cpp.h|CPP 라이브러리 JAVA 호출을 위한 JNI 함수 정의
+cpp/test-cpp.cpp|CPP 라이브러리 JAVA 호출을 위한 JNI 함수 구현
+cpp/ggwave/*|ggwave 라이브러리
 
 ---
 
 ## 코드 기여자 
 
-#### 소음감지카메라
+#### 에어코드 발신 장치 (타이젠)
 
 - 헤더파일(*.h)
 
 파일명|기여자
 ---|---
-inc/baseUI.h|황해연 
-inc/cam.h|황해연
-inc/max4466.h|황해연
-inc/misc.h|황해연,김민전
-inc/piezoe.h|황해연,김민전
-inc/post.h|황해연
-inc/soundcam.h|황해연
+inc/data-over-sound.h|황해연
+inc/data2wav.h|황해연
+inc/lcd.h|황해연
+inc/misc.h|황해연
 inc/thread.h|황해연
 
 - 소스파일(*.c)
 
-파일명|기여자
+파일명|내용
 ---|---
-src/baseUI.c|황해연
-src/cam.c|황해연
-src/main.c|황해연
-src/max4466.c|황해연
+src/data-over-sound.c|황해연
+src/data2wav.cpp|황해연
+src/lcd.cpp|황해연
 src/misc.c|황해연
-src/piezoe.c|황해연
-src/post.c|황해연 
 src/thread.c|황해연
 
-#### 카메라 대시보드
-
-- 소스파일(*.js)
+#### 에어코드 수신/QR체크인 (안드로이드)
 
 파일명|기여자
 ---|---
-app.c|황해연
-
-- 소스파일(*.ejs)
-  
-파일명|기여자
----|---
-views/chart.ejs|황해연  
+java/com/example/ggwave/**MainActivity.java**|김민전  
+cpp/test-cpp.h|김민전
+cpp/test-cpp.cpp|김민전
 
 ---
 
