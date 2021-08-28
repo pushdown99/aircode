@@ -185,7 +185,7 @@ cpp/test-cpp.cpp|김민전
 
 구현보드|목적|소스위치
 :---|:---|:---
-RPi 4|소음감지 카메라 본체</br>- 마이크앰프처리</br>- 카메라영상출력|[https://github.com/pushdown99/sound-camera/tree/master/camera](https://github.com/pushdown99/sound-camera/tree/master/camera)  
+RPi 4|에어코드 발신장치</br>- 에어코드발신</br>- 발신상태송출|[https://github.com/pushdown99/aircode/tree/main/data-over-sound](https://github.com/pushdown99/aircode/tree/main/data-over-sound)  
 
 
 ---
@@ -195,9 +195,8 @@ RPi 4|소음감지 카메라 본체</br>- 마이크앰프처리</br>- 카메라�
 #### Peripheral
 종류|디바이스|목적|소스위치
 :---|:---|:---|:---
-SPI|MAX4466/MCP3008|마이크앰프 복수채널 I/O|src/mcp3008.c</br>src/max446.c
-GPIO|버튼|카메라셔터|src/thread.c
-GPIO|피에조부저|카메라셔터음|src/piezoe.c 
+I2C|16x2 LCD 모듈|발신상태송출|src/lcd.c</br>src/LiquidCrystal_I2C.cpp(포팅)
+GPIO|LED|발신상태송출|src/thread.c
 
 ---
 
@@ -206,8 +205,4 @@ GPIO|피에조부저|카메라셔터음|src/piezoe.c
 #### 자료다운로드
 Output|Download
 ---|---
-문서자료|[소음카메라(pptx)](noise-camera.pptx)
-문서자료|[소음카메라(pdf)](noise-camera.pdf)
-발표자료|[PRESENTATION.md](PRESENTATION.md)
-
-# aircode
+발표자료|[README.md](README.md)
