@@ -75,6 +75,13 @@ tags: [tizen, rpi, iot]
 ![](photo/20210829-08/m2.jpg)
 ![](photo/20210829-08/m3.jpg)
 
+#### 기술적인부분
+- FSK(Frequency-Shft Keying) Modulation/Demodulation (모뎀)
+- Reed-Solomon Error Codes 오류검증 (ECC 기반)
+- BaseBand (가청대역: 1,875Hz, 비가청대역: 15,000Hz)
+- 96 Frequency(tone): BaseBand + 0 * dF ~ BaseBand + 95 * dF (dF = 46.85Hz)
+- 3 Byte per seconds => Using 4 bit chunk 1 tone => Transmit 6 tone simultaneously 
+
 ---
 
 ## 타이젠 오픈소스에 컨트리뷰션한 내역
