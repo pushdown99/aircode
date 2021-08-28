@@ -36,7 +36,6 @@ tags: [tizen, rpi, iot]
 
 ![](photo/20210828-10/m1.jpg)
 ![](photo/20210828-10/m2.jpg)
-![](photo/20210828-10/m3.jpg)
 
 ---
 
