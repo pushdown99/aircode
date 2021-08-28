@@ -42,7 +42,7 @@ tags: [tizen, rpi, iot]
 
 ## 프로젝트 제목
 
-** 에어코드를 이용한 QR체크인 (QR check-in w/ Air Code)**
+**에어코드를 이용한 QR체크인 (QR check-in w/ Air Code)**
 
 ![](images/m2.jpg)
 
