@@ -1,0 +1,3 @@
+ninja: Entering directory `C:\Workspaces\android\ggwave-java\app\.cxx\Debug\292k4p5d\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cxx\Debug\292k4p5d\obj\armeabi-v7a\libtest-cpp.so

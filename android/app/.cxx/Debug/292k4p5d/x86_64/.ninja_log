@@ -1,0 +1,10 @@
+# ninja log v5
+17	831	651574021	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/resampler.cpp.o	6475cc01afcd743f
+1	946	651574021	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	15679c6b91f15ea0
+32	1922	651574022	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/ggwave.cpp.o	6e31120f928fc358
+1923	2580	651574023	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/x86_64/libggwave.so	e50be9d12653f82d
+2581	3258	651574023	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/x86_64/libtest-cpp.so	15a5bab36ff9cd4d
+7	902	651749737	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	15679c6b91f15ea0
+903	1645	651749738	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/x86_64/libtest-cpp.so	15a5bab36ff9cd4d
+6	835	651817135	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	15679c6b91f15ea0
+836	1555	651817136	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/x86_64/libtest-cpp.so	15a5bab36ff9cd4d

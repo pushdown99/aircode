@@ -1,0 +1,20 @@
+# ninja log v5
+31	811	651574013	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/resampler.cpp.o	a8e40a15a50970c6
+1	953	651574014	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+16	2000	651574015	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/ggwave.cpp.o	5783027a339ec436
+2001	2846	651574016	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libggwave.so	880e1a738dfdf839
+2847	3509	651574016	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+5	1535	651735921	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+1536	2250	651735922	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+7	877	651817132	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+878	1560	651817132	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+5	861	651817483	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+861	1493	651817483	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+8	943	651817747	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+943	1581	651817747	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+4	1729	651818141	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+1730	3230	651818143	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+4	839	651818478	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+840	1464	651818478	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989
+6	983	651820504	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f6c6b2509c1f8d3b
+983	1629	651820504	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/arm64-v8a/libtest-cpp.so	e4e5de729ab43989

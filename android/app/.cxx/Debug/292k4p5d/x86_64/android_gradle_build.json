@@ -1,0 +1,58 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "C:\\Workspaces\\android\\ggwave-java\\app\\CMakeLists.txt",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\CMakeLists.txt",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\src\\CMakeLists.txt",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\bindings\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\Debug\\292k4p5d\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\Debug\\292k4p5d\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "test-cpp-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\Debug\\292k4p5d\\x86_64",
+        "test-cpp"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "test-cpp",
+      "output": "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cxx\\Debug\\292k4p5d\\obj\\x86_64\\libtest-cpp.so",
+      "runtimeFiles": [
+        "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cxx\\Debug\\292k4p5d\\obj\\x86_64\\libggwave.so"
+      ]
+    },
+    "ggwave-Debug-x86_64": {
+      "buildCommandComponents": [
+        "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\Debug\\292k4p5d\\x86_64",
+        "ggwave"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "ggwave",
+      "output": "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cxx\\Debug\\292k4p5d\\obj\\x86_64\\libggwave.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,10 @@
+# ninja log v5
+33	857	651574010	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/resampler.cpp.o	910d6807e892616c
+2	959	651574010	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f8c2c96f18c19580
+19	2158	651574011	src/main/cpp/ggwave/src/CMakeFiles/ggwave.dir/ggwave.cpp.o	30f7de24ff46ae29
+2158	2850	651574012	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/armeabi-v7a/libggwave.so	7f4eb491fecd5144
+2851	3494	651574013	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/armeabi-v7a/libtest-cpp.so	ee4d6ae723fc3ce5
+7	1169	651749733	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f8c2c96f18c19580
+1170	2019	651749734	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/armeabi-v7a/libtest-cpp.so	ee4d6ae723fc3ce5
+5	1007	651817130	CMakeFiles/test-cpp.dir/src/main/cpp/test-cpp.cpp.o	f8c2c96f18c19580
+1008	1747	651817131	../../../../build/intermediates/cxx/Debug/292k4p5d/obj/armeabi-v7a/libtest-cpp.so	ee4d6ae723fc3ce5

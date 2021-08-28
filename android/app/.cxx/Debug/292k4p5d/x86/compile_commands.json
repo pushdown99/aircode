@@ -1,0 +1,19 @@
+[
+{
+  "directory": "C:/Workspaces/android/ggwave-java/app/.cxx/Debug/292k4p5d/x86",
+  "command": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DGGWAVE_SHARED -Dtest_cpp_EXPORTS -I../../../../src/main/cpp/ggwave/src/. -I../../../../src/main/cpp/ggwave/src/../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\test-cpp.dir\\src\\main\\cpp\\test-cpp.cpp.o -c C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\test-cpp.cpp",
+  "file": "C:/Workspaces/android/ggwave-java/app/src/main/cpp/test-cpp.cpp"
+},
+
+{
+  "directory": "C:/Workspaces/android/ggwave-java/app/.cxx/Debug/292k4p5d/x86",
+  "command": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DGGWAVE_SHARED -Dggwave_EXPORTS -I../../../../src/main/cpp/ggwave/src/. -I../../../../src/main/cpp/ggwave/src/../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Wall -Wextra -pedantic -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o src\\main\\cpp\\ggwave\\src\\CMakeFiles\\ggwave.dir\\ggwave.cpp.o -c C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\src\\ggwave.cpp",
+  "file": "C:/Workspaces/android/ggwave-java/app/src/main/cpp/ggwave/src/ggwave.cpp"
+},
+
+{
+  "directory": "C:/Workspaces/android/ggwave-java/app/.cxx/Debug/292k4p5d/x86",
+  "command": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/pushd/AppData/Local/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DGGWAVE_SHARED -Dggwave_EXPORTS -I../../../../src/main/cpp/ggwave/src/. -I../../../../src/main/cpp/ggwave/src/../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Wall -Wextra -pedantic -O0 -fno-limit-debug-info  -fPIC   -std=gnu++11 -o src\\main\\cpp\\ggwave\\src\\CMakeFiles\\ggwave.dir\\resampler.cpp.o -c C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\src\\resampler.cpp",
+  "file": "C:/Workspaces/android/ggwave-java/app/src/main/cpp/ggwave/src/resampler.cpp"
+}
+]

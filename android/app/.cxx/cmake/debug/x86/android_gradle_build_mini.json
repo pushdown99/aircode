@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "C:\\Workspaces\\android\\ggwave-java\\app\\CMakeLists.txt",
+    "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\CMakeLists.txt",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\src\\CMakeLists.txt",
+    "C:\\Workspaces\\android\\ggwave-java\\app\\src\\main\\cpp\\ggwave\\bindings\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ggwave-Debug-x86": {
+      "artifactName": "ggwave",
+      "buildCommand": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\cmake\\debug\\x86\" ggwave",
+      "abi": "x86",
+      "output": "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libggwave.so",
+      "runtimeFiles": []
+    },
+    "test-cpp-Debug-x86": {
+      "artifactName": "test-cpp",
+      "buildCommand": "C:\\Users\\pushd\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Workspaces\\android\\ggwave-java\\app\\.cxx\\cmake\\debug\\x86\" test-cpp",
+      "abi": "x86",
+      "output": "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libtest-cpp.so",
+      "runtimeFiles": [
+        "C:\\Workspaces\\android\\ggwave-java\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libggwave.so"
+      ]
+    }
+  }
+}
