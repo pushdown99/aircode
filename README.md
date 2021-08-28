@@ -79,9 +79,9 @@ tags: [tizen, rpi, iot]
 
 ## 파일리스트
   
-#### 에어코드를 이용한 QR체크인 [[github]](https://github.com/pushdown99/aircode.git)
+#### 에어코드를 이용한 QR체크인 [[github]](https://github.com/pushdown99/aircode/tree/main/data-over-sound)
 ~~~console
-├─camera
+├─data-over-sound
 │  ├─inc
 │  ├─shared
 │  │  └─res
@@ -92,29 +92,35 @@ tags: [tizen, rpi, iot]
 
 파일명|내용
 ---|---
-inc/baseUI.h|baseUI/EFL 관련 외부참조 및 함수정의 
-inc/cam.h|카메라 관련 외부참조 변수 및 함수정의
-inc/max4466.h|마이크앰프(MAX4466) 제어를 위한 외부참조 변수 및 함수정의
-inc/misc.h|기타(miscellaneous) 외부참조 변수 및 함수정의
-inc/piezoe.h|피에조 부저 (카메라셔터음) 제어 관련 외부참조 변수 및 함수정의
-inc/post.h|외부서버에 데이터전송을 위한 curl/POST 관련 외부참조 변수 및 함수정의
-inc/soundcam.h|소음감지어플리케션 주요구조체 및 관련 외부참조 변수 및 함수정의
+inc/data-over-sound.h|에어코드 외부참조 변수 및 함수정의
+inc/data2wav.h|WAV파일 생성
+inc/dr_wav.h|WAV(from PCM) 파일생성을 위한 외부참조 변수 및 함수정의 (외부 오픈소스)
+inc/gf.hpp|Binary Polynomials 테이블 전처리 (외부 오픈소스)
+inc/ggwave-common.h|ggwave 관련 공통 외부참조 변수 및 함수정의
+inc/indicators.hpp|커맨드라인 진행처리 관련 외부참조 변수 및 함수정의
+inc/lcd.h|LCD 관련 외부참조 변수 및 함수정의
+inc/LiquidCrystal_I2C.h|LuquidCrystal I2C 처리를 위한 아두이노 외부참조 변수 및 함수정의 (외부 오픈소스)
+inc/misc.h|기타 Miscellaneous 외부참조 변수 및 함수정의
+inc/poly.hpp|Polynomial 부호 전처리 (외부 오픈소스)
+inc/resampler.h|샘플러를 위한 클래스 정의
+inc/rs.hpp|Reed-Solmon Error Correction 전처리 (외부 오픈소스)
 inc/thread.h|쓰레드 처리를 위한 외부참조 변수 및 함수정의
 
 - 소스파일(*.c)
 
 파일명|내용
 ---|---
-src/baseUI.c|baseUI/EFL을 이용 UI레이아웃 설정 및 제어 
-src/cam.c|카메라 초기화 및 프리뷰관련 설정</br>baseUI와 연결
-src/**main.c**|어플리케이초기화 및 환경설정</br>idler설정
-src/max4466.c|마이크앰프(MAX4466) 제어를 위한 외부참조 변수 및 함수정의
-src/misc.c|기타(miscellaneous) 함수
-src/piezoe.c|피에조 부저 (카메라셔터음) 제어
-src/post.c|외부서버에 데이터전송을 위한 curl/POST 
-src/thread.c|쓰레드 처리 (마이크앰프별,코디네이터, GPIO, Thingspark 연동)
+src/data-over-sound.c|에어코드 외부참조 변수 및 함수정의
+src/data2wav.cpp|WAV파일 생성
+src/ggwave-common.cpp|ggwave 관련 공통 라이브러리 (외부오픈소스)
+src/ggwave.cpp|ggwave 라이브러리 (외부오픈소스)
+src/lcd.cpp|LCD 관련 함수 구현
+src/LiquidCrystal_I2C.cpp|LuquidCrystal I2C 처리를 위한 아두이노 함수 라이브러리 (외부 오픈소스)
+src/misc.c|기타 Miscellaneous 함수 구현
+src/resampler.cpp|샘플러를 위한 클래스 함수 구현
+src/thread.c|쓰레드 처리를 위한 함수 구현
 
-#### 카메라 대시보드 [[github]](https://github.com/pushdown99/sound-camera/tree/master/dashboard)
+#### 안드로이드 앱 [[github]](https://github.com/pushdown99/sound-camera/tree/master/dashboard)
 
 ~~~console
 ├─dashboard
