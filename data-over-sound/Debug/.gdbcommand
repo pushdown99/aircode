@@ -1,0 +1,6 @@
+set sysroot C:/tizen-sdk/platforms/tizen-6.0/iot-headless/rootstraps/iot-headless-6.0-device.core
+set debug-file-directory C:/tizen-sdk/platforms/tizen-6.0/iot-headless/rootstraps/iot-headless-6.0-device.core/usr/lib/debug
+set solib-search-path C:/Workspaces/tizen/data-over-sound/Debug
+dir C:/tizen-sdk/platforms/tizen-6.0/iot-headless/rootstraps/iot-headless-6.0-device.core/usr/src/debug
+file "C:/Workspaces/tizen/data-over-sound/Debug/data-over-sound"
+sharedlibrary

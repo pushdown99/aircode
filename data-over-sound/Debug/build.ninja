@@ -1,0 +1,28 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+ninja_required_version = 1.5
+include rules.ninja
+include target.ninja
+
+shell = cmd /c
+bashshell = C:\tizen-sdk\tools\msys2\usr\bin\sh.exe
+builddir = ../Debug
+sareportdir = ../SA_Report
+sa_checkers = cplusplus,core,deadcode,resourceLeak,security,unix
+coveragedir = ../Coverage_Report
+
+subninja ../Debug/src/subdir.ninja
+
+targettool = clang++.exe
+targetflags =  -L"C:/Workspaces/tizen/data-over-sound/lib" -target arm-tizen-linux-gnueabi -gcc-toolchain "C:\tizen-sdk\tools\smart-build-interface/../arm-linux-gnueabi-gcc-9.2/" -ccc-gcc-name arm-linux-gnueabi-g++ -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mtune=cortex-a8 -Wl,-z,relro,--as-needed  -pie -lpthread --sysroot="C:/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-6.0/iot-headless/rootstraps/iot-headless-6.0-device.core" -Xlinker --version-script="../.exportMap" -L"C:/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-6.0/iot-headless/rootstraps/iot-headless-6.0-device.core/usr/lib" -lanl -lappcore-agent -lbase-utils-i18n -lBrokenLocale -lbundle -lcapi-appfw-alarm -lcapi-appfw-app-common -lcapi-appfw-app-control -lcapi-appfw-app-control-uri -lcapi-appfw-app-manager -lcapi-appfw-event -lcapi-appfw-package-manager -lcapi-appfw-preference -lcapi-base-common -lcapi-media-player -lcapi-media-sound-manager -lcapi-media-tool -lcapi-network-bluetooth -lcapi-network-connection -lcapi-network-softap -lcapi-network-wifi-manager -lcapi-system-device -lcapi-system-info -lcapi-system-peripheral-io -lcrypto -lcrypt -lc -lcurl -ldiagnostics -ldlog -ldl -lecore -leina -leo -lgio-2.0 -lglib-2.0 -lgmodule-2.0 -lgobject-2.0 -lgthread-2.0 -liotcon -liotjs -ljson-glib-1.0 -lkey-manager-client -lma -lmessage-port -lminizip -lm -lnotification-ex -lnotification -lnss_compat -lnss_dns -lnss_files -lnss_hesiod -lpthread -lresolv -lrpc-port -lrt -lsqlite3 -lssl -lstorage -ltbm -lthread_db -lttrace -lupdate-control -lutil -lxml2 -lz -Werror-implicit-function-declaration
+
+build data-over-sound: build_target src/LiquidCrystal_I2C.o src/data2wav.o src/ggwave-common.o src/ggwave.o src/lcd.o src/resampler.o src/data-over-sound.o src/misc.o src/thread.o 
+build ast: phony src/LiquidCrystal_I2C.o.ast src/data2wav.o.ast src/ggwave-common.o.ast src/ggwave.o.ast src/lcd.o.ast src/resampler.o.ast src/data-over-sound.o.ast src/misc.o.ast src/thread.o.ast
+build externalFnMap.txt: fast_ext_fn src/LiquidCrystal_I2C.o.ast src/data2wav.o.ast src/ggwave-common.o.ast src/ggwave.o.ast src/lcd.o.ast src/resampler.o.ast src/data-over-sound.o.ast src/misc.o.ast src/thread.o.ast
+build sa: phony $sareportdir/src/LiquidCrystal_I2C.o.xml $sareportdir/src/data2wav.o.xml $sareportdir/src/ggwave-common.o.xml $sareportdir/src/ggwave.o.xml $sareportdir/src/lcd.o.xml $sareportdir/src/resampler.o.xml $sareportdir/src/data-over-sound.o.xml $sareportdir/src/misc.o.xml $sareportdir/src/thread.o.xml
+build apichecker: unusedapi_rule src/LiquidCrystal_I2C.o.txt src/data2wav.o.txt src/ggwave-common.o.txt src/ggwave.o.txt src/lcd.o.txt src/resampler.o.txt src/data-over-sound.o.txt src/misc.o.txt src/thread.o.txt
+build cov: cov_report $coveragedir/src/LiquidCrystal_I2C.o.cov $coveragedir/src/data2wav.o.cov $coveragedir/src/ggwave-common.o.cov $coveragedir/src/ggwave.o.cov $coveragedir/src/lcd.o.cov $coveragedir/src/resampler.o.cov $coveragedir/src/data-over-sound.o.cov $coveragedir/src/misc.o.cov $coveragedir/src/thread.o.cov
+build cov_report_only: cov_report
+

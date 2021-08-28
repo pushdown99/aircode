@@ -1,0 +1,14 @@
+# ninja log v5
+88	1617	0	src/data-over-sound.o	389850fe35039c8e
+1024	1848	0	data-over-sound	fef27adbaedb9380
+69	2139	0	src/ggwave-common.o	525e76c55547d872
+0	69	0	clean_cov	b3de405e02eb7ca8
+69	131	0	clean_sa	46ab9549445ac981
+131	171	0	clean	d59b6dac04fa9b5d
+126	1263	0	src/resampler.o	c74bd67de161212f
+8	2895	0	src/ggwave.o	f278526a9c7fbcac
+106	1620	0	src/misc.o	1de612ae3d4cfd92
+22	1024	0	src/thread.o	3dd446845802d15c
+54	1698	0	src/data2wav.o	83b0e20fd0a8074d
+5	423	0	src/LiquidCrystal_I2C.o	9bfe969ba3495dc1
+4	380	0	src/lcd.o	8dc634da12287bc5
