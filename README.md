@@ -21,6 +21,7 @@ tags: [tizen, iot, android, aircode]
 ---
 
 **시연동영상**
+
 [![Watch the video](https://img.youtube.com/vi/uvsUo99V84U/hqdefault.jpg)](https://youtu.be/uvsUo99V84U)
 ![](images/b0.jpg)
 
