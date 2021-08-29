@@ -202,9 +202,9 @@ src/thread.c|황해연
 
 파일명|기여자
 ---|---
-java/com/example/ggwave/**MainActivity.java**|김민전  
-cpp/test-cpp.h|김민전
-cpp/test-cpp.cpp|김민전
+java/com/example/ggwave/**MainActivity.java**|황해연  
+cpp/test-cpp.h|황해연
+cpp/test-cpp.cpp|황해연
 
 ---
 
