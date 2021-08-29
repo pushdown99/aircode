@@ -178,7 +178,7 @@ src/thread.c|쓰레드 처리를 위한 함수 구현
 
 파일명|내용
 ---|---
-java/com/example/ggwave/**MainActivity.java**|메인액티비티 함수 구현 (에어코드 인지 및 QR 체크인 인덴트 호출)  
+java/com/example/ggwave/**MainActivity.java**|메인액티비티 함수 구현 (에어코드 인지 및 QR 체크인 인텐트 호출)  
 
 - 소스파일(*.cpp *.h)
 
