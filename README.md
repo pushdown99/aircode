@@ -1,7 +1,7 @@
 ---
 title: (2021)온라인 서울 하드웨어 해커톤 - 탑메이커편' 
-author: haeyeon.hwang
-tags: [tizen, rpi, iot]
+author: 황해연
+tags: [tizen, iot, android, aircode]
 ---
 
 # (2021)온라인 서울 하드웨어 해커톤 - 탑메이커편
