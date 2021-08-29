@@ -231,7 +231,6 @@ GPIO|LED|발신상태송출|src/thread.c
 - 단말별 비가청대역 (Base: 15000Hz)의 화이트노이즈제거 또는 shaping으로 오류율 증가 (Base Freq 보정필요)
 - 속도개선 (24bps): 96bps (현재 1 tone = 4bit chunk -> 8bit: x2, 6 tone -> 12 tone: x2)
 - 오디오 송출관련 수정필요 (HDMI => Audio jack)
-- I2C 16x2 LED 제어부 확인 필요/고장여부 (글자가 잘나오다가 backlight/clear외 setcursor/print 동작안함)
 
 ---
 
