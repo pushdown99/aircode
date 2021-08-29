@@ -39,10 +39,10 @@ tags: [tizen, iot, android, aircode]
 
 ![](photo/team.jpg)
 
-![](photo/20210828-10/m1.jpg){ width=50% }
+![](photo/20210828-10/m1.jpg){ width=300 }
 - 소프트웨어 개발환경 (타이젠스튜디오, 디바이스관리자)
 
-![](photo/20210828-10/m2.jpg){ width=50% }
+![](photo/20210828-10/m2.jpg){ width=300 }
 - 하드웨어 개발환경 (라즈베리파이4, 안드로이드단말)
 
 ---
