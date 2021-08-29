@@ -72,6 +72,7 @@ tags: [tizen, rpi, iot]
 #### 하고자 하는것
 - QR 체크인이 필요한 상황에서 알아서 체크인 코드가 활성화
 - **에어코드를 이용한 QR체크인**
+- 하드보드를 이용한 케이스 제작 (시간부족)
 
 ![](photo/20210828-14/m1.jpg)
 ![](photo/20210828-14/m2.jpg)
@@ -161,7 +162,7 @@ src/thread.c|쓰레드 처리를 위한 함수 구현
 
 파일명|내용
 ---|---
-java/com/example/ggwave/**MainActivity.java**|메인액티비티 함수 구현 (에어태크인지 및 QR 체크인 인덴트호출)  
+java/com/example/ggwave/**MainActivity.java**|메인액티비티 함수 구현 (에어코드 인지 및 QR 체크인 인덴트 호출)  
 
 - 소스파일(*.cpp *.h)
 
