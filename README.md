@@ -81,8 +81,10 @@ tags: [tizen, iot, android, aircode]
 - 하드보드를 이용한 케이스 제작 (시간부족)
 ![](photo/20210828-14/m1.jpg)
 - 에어코드 발신기 측면 (LED 점등)
+
 ![](photo/20210828-14/m2.jpg)
 - 에어코드 발신기 전면 (16x2 LED, 상태코드 디스플레이)
+
 ![](photo/20210828-14/m3.jpg)
 - 16x2 LED
 
@@ -96,8 +98,10 @@ tags: [tizen, iot, android, aircode]
 
 ![](photo/20210829-08/m1.jpg)
 - 에어코드 발신기 (전면부, Tizen 2021)
+
 ![](photo/20210829-08/m2.jpg)
 - 에어코드 수신단말 (데이터캡처 중)
+
 ![](photo/20210829-08/m3.jpg)
 - 에어코드 수신단말 (데이터캡처 전)
 
